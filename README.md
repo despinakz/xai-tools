@@ -1,7 +1,10 @@
 # xai-tools
-University of Piraeus - Thesis Project
-This repository ...
+Πανεπιστήμιο Πειραιώς - Τμήμα Ψηφιακών Συστημάτων
+Κατεύθυνση: Συστήματα λογισμικού και δεδομένων
+Πτυχιακή Εργασία με θέμα: Συγκριτική ανάλυση εργαλείων Επεξήγησης Τεχνητής Νοημοσύνης (AI Explainability)
 
+
+=== ΠΕΔΙΟ ΕΦΑΡΜΟΓΗΣ 1: ΔΟΜΗ ΑΡΧΕΙΩΝ reviewsNN ===
 ```bash
 reviewsNN
 ├── NN-Project
@@ -16,7 +19,9 @@ reviewsNN
     ├── imdb_classifier.ipynb       : Χρήση εργαλείου επεξήγησης LIME 
     ├── imdb_classifier_shap.ipynb  : Χρήση εργαλείου επεξήγησης SHAP 
     └── my_model.h5                 : Το μοντέλο ενδιαφέροντος (νευρωνικό δίκτυο) 
-        
+ ```
+ === ΠΕΔΙΟ ΕΦΑΡΜΟΓΗΣ 2: ΔΟΜΗ ΑΡΧΕΙΩΝ skinCancer ===
+ ```bash
 skinCancer
 └── data
     ├── test                                    : Δεδομένα ελέγχου (test dataset)
