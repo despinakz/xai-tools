@@ -26,4 +26,31 @@ reviewsNN
     │   └── Χρήση εργαλείου επεξήγησης SHAP
     └── my_model.h5
         └── Το μοντέλο ενδιαφέροντος (νευρωνικό δίκτυο)
+        
+skinCancer
+└── data
+    ├── test
+    │   └── Δεδομένα ελέγχου (test dataset)
+    ├── train
+    │   └── Δεδομένα εκπαίδευδης (training dataset)
+    ├── models
+    │   ├── model.h5
+    │   ├── model.json
+    │   ├── resnet50.h5
+    │   │   └── Το μοντέλο ενδιαφέροντος που χρησιμοποιήθηκε στην εργασία
+    │   └── resnet50.json
+    │       └── Το μοντέλο ενδιαφέροντος που χρησιμοποιήθηκε στην εργασία
+    └── code
+        ├── cnn-for-skin-cancer-detection.ipynb
+        │   └── Δεδομένα και δημιουργία/εκπαίδευση μοντέλου
+        ├── img_classification_lime.ipynb
+        │   └── Χρήση εργαλείου επεξήγησης LIME
+        ├── img_classification_shap.ipynb
+        │   └── Χρήση εργαλείου επεξήγησης SHAP
+        ├── save_arr_to_npy_files.ipynb
+        ├── Untitled.ipynb
+        ├── X_test.npy
+        ├── X_train.npy
+        ├── y_test.npy
+        └── y_train.npy
 ```
