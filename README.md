@@ -2,6 +2,7 @@
 University of Piraeus - Thesis Project
 This repository ...
 
+```bash
 reviewsNN
 ├── NN-Project
 │   ├── IMDB Dataset.csv
@@ -25,3 +26,4 @@ reviewsNN
     │   └── Χρήση εργαλείου επεξήγησης SHAP
     └── my_model.h5
         └── Το μοντέλο ενδιαφέροντος (νευρωνικό δίκτυο)
+```
