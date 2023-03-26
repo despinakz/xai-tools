@@ -1,0 +1,362 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 35px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+#hh1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 175px;
+    display: block;
+    margin-top:200px;
+    font-weight: bold;
+	margin-left:200px;
+    
+}
+hh2
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+h2
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(pic1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+    
+        
+}
+
+.logo img
+{
+    width: 50px;
+    height: auto;
+}
+
+.inputbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.backbox{
+
+    background: #000;
+    opacity: .80;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    align-items: center;
+    margin: 20px;
+	margin-left:250px;
+	
+}
+
+
+
+.backbox img{
+width:150px;
+height:250px;
+margin-left:5px;
+margin-top:10px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.avatar1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.inputbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.inputbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inputbox input[type="text"], output[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.inputbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.inputbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.inputbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.inputbox a:hover
+{
+    color: #ffc107;
+}
+
+.link { color: rgb(255, 255, 255); } /* CSS link color (red) */
+.link:hover { color: rgb(93, 0, 255); } /* CSS link hover (green) */
+
+.zoom {
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  display:inline;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.zoom img {
+  transition: transform .4s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.zoom:hover img {
+  transform: scale(1.3);
+}
+
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.neon {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 3vw;
+  line-height: 5vw;
+  text-shadow: 0 0 3vw #F40A35;
+  margin-left:500px;
+}
+
+.flux {
+  font-family: neon;
+  color: #426DFB;
+  font-size: 2vw;
+  line-height: 1vw;
+  text-shadow: 0 0 3vw #2356FF;
+  margin-left:500px;
+  margin-bottom:15px;
+}
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
