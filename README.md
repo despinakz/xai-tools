@@ -16,7 +16,8 @@ reviewsNN
     ├── imdb_classifier.ipynb       : Χρήση εργαλείου επεξήγησης LIME 
     ├── imdb_classifier_shap.ipynb  : Χρήση εργαλείου επεξήγησης SHAP 
     └── my_model.h5                 : Το μοντέλο ενδιαφέροντος (νευρωνικό δίκτυο) 
-        
+ ```
+ ```bash
 skinCancer
 └── data
     ├── test                                    : Δεδομένα ελέγχου (test dataset)
