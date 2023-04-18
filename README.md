@@ -40,9 +40,9 @@ reviewsNN
  ```bash
 skinCancer
 └── data
-    ├── test                                    : Δεδομένα ελέγχου (test dataset)
-    ├── train                                   : Δεδομένα εκπαίδευδης (training dataset)
-    ├── models
+    ├── test                                    : Δεδομένα ελέγχου (test dataset) https://www.kaggle.com/code/fanconic/cnn-for-skin-cancer-detection/notebook
+    ├── train                                   : Δεδομένα εκπαίδευδης (training dataset) https://www.kaggle.com/code/fanconic/cnn-for-skin-cancer-detection/notebook
+└── models
     │   ├── model.h5
     │   ├── model.json
     │   ├── resnet50.h5                         : Το μοντέλο ενδιαφέροντος που χρησιμοποιήθηκε στην εργασία
